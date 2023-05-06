@@ -1,8 +1,9 @@
 {
-  "name": "@uniswap/widgets",
+  "name": "uniswap-widgets-qwq",
+  "version": "0.0.1",
   "description": "Uniswap Interface",
-  "homepage": "https://github.com/Uniswap/widgets#readme",
-  "repository": "https://github.com/Uniswap/widgets",
+  "homepage": "https://github.com/landiehan/widgets#readme",
+  "repository": "https://github.com/landiehan/widgets",
   "files": [
     "dist"
   ],

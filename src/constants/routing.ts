@@ -22,6 +22,7 @@ import {
   sETH2,
   SWISE,
   TRIBE,
+  USDC_ARBITRUM_GOERLI,
   USDC_MAINNET,
   USDC_POLYGON,
   USDT,
@@ -81,6 +82,10 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
     CMC02_CELO,
     PORTAL_USDC_CELO,
     PORTAL_ETH_CELO,
+  ],
+  [SupportedChainId.ARBITRUM_GOERLI]: [
+    ...WRAPPED_NATIVE_CURRENCIES_ONLY[SupportedChainId.ARBITRUM_GOERLI],
+    USDC_ARBITRUM_GOERLI,
   ],
 }
 export const ADDITIONAL_BASES: { [chainId: number]: { [tokenAddress: string]: Token[] } } = {

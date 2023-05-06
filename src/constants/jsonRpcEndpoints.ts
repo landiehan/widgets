@@ -56,6 +56,10 @@ export const JSON_RPC_FALLBACK_ENDPOINTS: Record<SupportedChainId, string[]> = {
     // "Safe" URLs
     'https://rinkeby.arbitrum.io/rpc',
   ],
+  [SupportedChainId.ARBITRUM_GOERLI]: [
+    // "Safe" URLs
+    'https://goerli.arbitrum.io/rpc',
+  ],
   [SupportedChainId.OPTIMISM]: [
     // "Safe" URLs
     'https://mainnet.optimism.io/',
